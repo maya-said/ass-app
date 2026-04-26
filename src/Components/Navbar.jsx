@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Navbar</a>
+        <a className="navbar-brand" href="#"> my Navbar</a>
 
         <button
           className="navbar-toggler"
@@ -41,7 +41,7 @@ function Navbar() {
                 <li><a className="dropdown-item" href="#">Action</a></li>
                 <li><a className="dropdown-item" href="#">Another action</a></li>
 
-                {/* 👇 مهم */}
+            
                 <li><hr className="dropdown-divider" /></li>
 
                 <li><a className="dropdown-item" href="#">Something else</a></li>
