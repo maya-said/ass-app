@@ -4,7 +4,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container-fluid">
         <div className="navbar-left">
-          <a className="navbar-brand" href="#">Jupiter</a>
+          <a className="navbar-brand" href="#">Navbar</a>
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">Home</a>

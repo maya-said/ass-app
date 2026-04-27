@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <h1>Welcome to Jupiter</h1>
+      <h1>Welcome to my project</h1>
       <CustomSlider
         min={0}
         max={100}
