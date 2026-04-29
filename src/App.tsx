@@ -1,8 +1,18 @@
+import React from "react";
+import Login from './fratures/auth/login/login';
 
-import Login from "./fratures/auth/login/Login";
-const App = () => {
+
+
+const App: React.FC = () => {
   return (
-    <Login/>
+      <div className="min-h-screen bg-gray-100">
+
+      {/* Main Content */}
+      <main className="flex items-center justify-center py-10">
+        <Login />
+      </main>
+    </div>
   );
-}
+};
+
 export default App;
