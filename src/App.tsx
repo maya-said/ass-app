@@ -1,6 +1,7 @@
 import React from "react";
 import Login from './fratures/auth/login/login';
-
+import AuthLayout from './layouts/AuthLayout';
+import AuthComponent from "./layouts/AuthLayout";
 
 
 const App: React.FC = () => {
@@ -9,7 +10,7 @@ const App: React.FC = () => {
 
       {/* Main Content */}
       <main className="flex items-center justify-center py-10">
-        <Login />
+        <AuthComponent />
       </main>
     </div>
   );
